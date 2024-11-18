@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title> Taal Cultural Center </title>
+    
+    <link href = "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Finger+Paint&display=swap" rel = "stylesheet">
+
+    <style>
+        *
+        #box3-1 {
+            position: absolute;
+            top: 200px;
+            left: 14px;
+            width: 40%;
+            max-width: 400px;
+            text-align: justify;
+            font-family: 'Cormorant Garamond', serif;
+            margin-top: 25px;
+            color: #000;
+            font-size: 22px;
+            z-index: 3;
+            padding: 20px 10px;
+            border: 1px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.1);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+            backdrop-filter:blur(5px);
+            z-index: 3;
+        }
+
+        #box3-1:hover {
+            color: #fff;
+            box-shadow: 0 0 15px #fff;
+            text-shadow: 0 0 15px #fff;
+        }
+
+        #box3-1:before {
+            content: '';
+            position:absolute;
+            background: #fff;
+            transition: .5s;
+            transform: scale(.9);
+            z-index: -1;
+        }
+
+        #box3-1:hover:before {
+            transform: scale(1.2);
+            box-shadow: 0 0 15 px #fff;
+            filter: blur(3px);
+        }
+
+        #box3-2 {
+            position: absolute;
+            top: 200px;
+            left: 1080px;
+            width: 40%;
+            max-width: 400px;
+            text-align: justify;
+            font-family: 'Cormorant Garamond', serif;
+            margin-top: 25px;
+            color: #000;
+            font-size: 22px;
+            z-index: 3;
+            padding: 20px 10px;
+            border: 1px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.1);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+            backdrop-filter:blur(5px);
+            z-index: 3;
+        }
+
+        #box3-2:hover {
+            color: #fff;
+            box-shadow: 0 0 15px #fff;
+            text-shadow: 0 0 15px #fff;
+        }
+
+        #box3-2:before {
+            content: '';
+            position:absolute;
+            background: #fff;
+            transition: .5s;
+            transform: scale(.9);
+            z-index: -1;
+        }
+
+        #box3-2:hover:before {
+            transform: scale(1.2);
+            box-shadow: 0 0 15 px #fff;
+            filter: blur(3px);
+        }
+
+        #violet-grid {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 1520px;
+             height: 850px;
+            z-index: 1;
+        }
+
+        #taal-cultural-center {
+            position: absolute;
+            top: 80px;
+            left: 432px;
+            width: 650px;
+            height: 600px;
+            z-index: 2;
+        }
+
+        #violet1 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 1520px;
+            height: 850px;
+            z-index: 1;
+        }
+
+        #pink1 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 1520px;
+            height: 850px;
+            z-index: 2;
+        }
+
+        #blue1 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 1520px;
+            height: 850px;
+            z-index: 2;
+        }
+
+        #tcc1 {
+            position: absolute;
+            top: 300px;
+            left: 1150px;
+            width: 280px;
+            height: 450px;
+            z-index: 1;
+        }
+
+        #tcc2 {
+            position: absolute;
+            top: 360px;
+            left: 50px;
+            width: 350px;
+            height: 400px;
+            z-index: 1;
+        }
+
+        #btn-taal-cultural-center{
+            position: absolute;
+            top: 35px;
+            left: 1300px;
+            height: 60px;
+            width: 200px;
+            font-family: arial black;
+            text-align: center;
+            text-decoration: none;
+            line-height: 60px;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 24px;
+            background: #775bbe;
+            border-radius: 30px;
+            cursor: pointer;
+            z-index: 3;
+        }
+</style>
+
+</head>
+
+<body>
+    <p id="box3-1"> Escuela Pia in Taal is one of the oldest educational institutions in the country. 
+                    This school was supervised by the church, which later became a school for disadvantaged youth of Taal. </p>
+    <p id="box3-2"> This centuries-old Spanish edifice was built in 1885 through the efforts of P. Aniceto Aparicio. 
+                    It is now an impressive architectural legacy that remains on the site of the Taal Town Plaza. </p>
+    <img src="../img/page1/violet-grid.webp" id="violet-grid">  
+    <a href="../index.html" id="btn-taal-cultural-center"> Back </a> 
+    
+    <img src="../img/page3/taal-cultural-center.webp" id="taal-cultural-center">  
+    <img src="../img/page1/violet1.webp" id="violet1">  
+    <img src="../img/page1/pink1.webp" id="pink1">  
+    <img src="../img/page1/blue1.webp" id="blue1">  
+    
+    <img src="../img/page3/tcc1.webp" id="tcc1"> 
+    <img src="../img/page3/tcc2.webp" id="tcc2">       
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script> 
+        gsap.from("#violet1", {
+            scrollTrigger : {
+            scrub: true
+            },
+            x: -100,
+            })
+
+        gsap.from("#pink1", {
+            scrollTrigger : {
+            scrub: true
+            },
+            x: 100,
+            })
+
+        gsap.from("#blue1", {
+            scrollTrigger : {
+            scrub: true
+            },
+            x: -100,
+            })
+
+        gsap.from("#tcc1", {
+            scrollTrigger : {
+            scrub: true
+            },
+            y: 100,
+            })
+
+        gsap.from("#tcc2", {
+            scrollTrigger : {
+            scrub: true
+            },
+            y: 80,
+            })
+
+        ScrollReveal({
+            reset: true,
+            distance: '-40px',
+            duration: 2500,
+            delay: 400
+
+    });
+        ScrollReveal().reveal('#taal-cultural-center' , {delay: 3, origin: 'top'});
+        ScrollReveal().reveal('#tcc1, #tcc2' , {delay: 3, origin: 'top'});
+        ScrollReveal().reveal('#box3-1, #violet1, #blue1', {delay: 2, origin: 'right'});
+        ScrollReveal().reveal('#pink1, #box3-2, #btn-taal-cultural-center', {delay: 3, origin: 'left'});
+
+    </script>
+</body>
+</html>
